@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignorar a virtual environment
+.venv/
+
+# Ignorar a pasta lixo
+Lixo/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos do Jupyter
+.ipynb_checkpoints
+
+# Ignorar o csv 
+*.csv
+
+# Ignorar a pasta DB
+dataset/
